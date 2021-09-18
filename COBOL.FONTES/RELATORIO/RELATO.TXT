@@ -1,0 +1,41 @@
+FUTURE SCHOOL CURSOS DE COMPUTACAO        10:32         PAG.:     1
+PROGRAMA = EXER0013                                      26/01/2010
+
+               RELATORIO DE FUNCIONARIOS POR SECAO
+
+   SECAO  CODIGO                NOME                     SALARIO
+
+     A         1    FFFFF FFFF FFFFF FFFFF                 3.500,00
+     A         2    GGGGGG GGGGG GGGGGG GGGG               4.800,00
+     A    10.002    HHHH HHH HHHHHH HHHHH                  3.500,00
+     A    10.003    IIIIIIIII IIIIIIIIIIII                 3.000,00
+
+TOTAL DE FUNCIONARIOS DA SECAO A     :       4
+TOTAL DE SALARIOS PAGOS PELA SECAO A :        14.800,00
+
+     B    10.004    JJJJJJ JJJJJJJ JJJJJJJ                 3.500,00
+
+TOTAL DE FUNCIONARIOS DA SECAO B     :       1
+TOTAL DE SALARIOS PAGOS PELA SECAO B :         3.500,00
+
+     C    10.005    KKKKKKKKK KKKKK                        3.800,00
+
+TOTAL DE FUNCIONARIOS DA SECAO C     :       1
+TOTAL DE SALARIOS PAGOS PELA SECAO C :         3.800,00
+
+     D    10.010    LLLLLL LLLLLL LLLLLL                   5.000,00
+     D    10.012    AAAA AAAA AAAAA AAAAA                  1.650,00
+     D    10.020    BBB BBBBBBB BBBBBBBBB                  2.800,00
+     D    10.030    CCCCCC CCCC CC CCCCCC                  1.500,00
+     D    10.035    DDDDD DDDDDDD DDDDDD                   2.000,00
+     D    10.040    EEEEEEEEEE EE EEEEE EEEEEE             3.000,00
+
+TOTAL DE FUNCIONARIOS DA SECAO D     :       6
+TOTAL DE SALARIOS PAGOS PELA SECAO D :        15.950,00
+
+     X    10.050    MMMMMMM MMMMMMMM MM MMMMM              2.568,00
+
+TOTAL DE FUNCIONARIOS DA SECAO X     :       1
+TOTAL DE SALARIOS PAGOS PELA SECAO X :         2.568,00
+
+TOTAL DE FUNCIONARIOS DA SECAO X     :       1

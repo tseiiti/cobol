@@ -1,0 +1,19 @@
+FUTURE SCHOOL CURSOS DE COMPUTACAO    11:09    PAG.:     1
+PROGRAMA = EXER0019                             06/03/2010
+
+            LISTAGEM DOS CORRENTISTAS
+
+==========================================================
+  CODIGO CPF            NOME DO CORRENTISTA          BANCO
+==========================================================
+
+111.111.111-11     AAAA AAA AAAA                      ABC
+222.222.222-22     BBBB BBB BBBB                      ABC
+333.333.333-33     CCCC CCC CCCCC                     ABC
+444.444.444-44     DDDD DDD DDDDD                     ABC
+555.555.555-55     EEEE EEE EEEEE                     ABC
+
+
+TOTAL DE CORRENTISTAS LIDOS    (BANCO ABC):       5
+TOTAL DE CORRENTISTAS LIDOS    (BANCO XYZ):       0
+TOTAL DE CORRENTISTAS GRAVADOS (BANCO GER):       5

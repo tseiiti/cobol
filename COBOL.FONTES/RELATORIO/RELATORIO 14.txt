@@ -1,0 +1,31 @@
+FUTURE SCHOOL CURSOS DE COMPUTACAO       PAG.: Z.ZZ9
+PROGRAMA = EXER0014                       DD/MM/AAAA
+
+        SUMARIZACAO DO CADASTRO DE PRODUTOS
+        
+ CODIGO      CODIGO        CODIGO           CUSTO
+PRODUTO    SUBPRODUTO       PECA          UNITARIO
+
+ 99999        99999         99999       Z.ZZZ.ZZ9,99
+                            99999       Z.ZZZ.ZZ9,99
+                            99999       Z.ZZZ.ZZ9,99
+
+*  TOTAL CODIGO SUBPRODUTO  99999      ZZ.ZZZ.ZZ9,99
+
+ 99999        99999         99999       Z.ZZZ.ZZ9,99
+                            99999       Z.ZZZ.ZZ9,99
+
+*  TOTAL CODIGO SUBPRODUTO  99999      ZZ.ZZZ.ZZ9,99
+** TOTAL CODIGO PRODUTO     99999   Z.ZZZ.ZZZ.ZZ9,99
+
+ 99999        99999         99999       Z.ZZZ.ZZ9,99
+                            99999       Z.ZZZ.ZZ9,99
+                            99999       Z.ZZZ.ZZ9,99
+
+*  TOTAL CODIGO SUBPRODUTO  99999      ZZ.ZZZ.ZZ9,99
+
+ 99999        99999         99999       Z.ZZZ.ZZ9,99
+                            99999       Z.ZZZ.ZZ9,99
+
+*  TOTAL CODIGO SUBPRODUTO  99999      ZZ.ZZZ.ZZ9,99
+** TOTAL CODIGO PRODUTO     99999   Z.ZZZ.ZZZ.ZZ9,99

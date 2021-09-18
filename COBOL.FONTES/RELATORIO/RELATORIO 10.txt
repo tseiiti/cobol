@@ -1,0 +1,21 @@
+FUTURE SCHOOL CURSOS DE COMPUTACAO     HH:MM     PAG.: Z.ZZ9
+PROGRAMA = EXER0010                               DD/MM/AAAA
+
+         RELATORIO DE ALUNOS MATRICULADOS POR TURMA                
+
+============================================================                       
+CODIGO            NOME DO ALUNO                        TURMA
+============================================================
+
+ 9999          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX           999
+ 9999          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX           999
+ 9999          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX           999
+ 9999          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX           999
+
+***** TURMA 999    TOTAL DE ALUNOS =>   Z.ZZ9
+
+ 9999          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX           999
+
+***** TURMA 999    TOTAL DE ALUNOS =>   Z.ZZ9
+ 
+***** TOTAL DE ALUNOS LIDOS        =>  ZZ.ZZ9                    

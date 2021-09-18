@@ -1,0 +1,168 @@
+USUARIO:    ALUNOU8
+PASSWORD:   TESTE
+
+================================================================================
+SIMULADOR DE CONEXÃO:   TN3270 PLUS
+TERMINAL TYPE:          3279
+SETUP ITENS:            TERMINAL
+    UNSUPORTED FUNCTION -> ESC
+    TELA DE ENTRADA -> L ALUNOU8 <ENTER>
+    *** <ENTER>
+--------------------------------------------------------------------------------
+MENU: CUSTOM PAC MARSTER APPLICATION
+P.3.4
+
+================================================================================
+DATA SET -> PASTA (BIBLIOTECA) OU ARQUIVO (MEMBRO)
+JCOMPCOB -> SCRIPT DE COMPILAÇÃO (MAKEFILE)
+                              
+COMANDOS:
+RES    -> RESETA CONFIGURAÇÃO
+CANCEL -> VOLTA O ARQUIVO AO ESTADO DA ÚLTIMA GRAVAÇÃO
+SAVE   -> SALVA
+
+COMANDOS DE LINHAS:
+COLS -> APRESENTA OS NÚMEROS DAS COLUNAS
+I(N) -> INSERE LINHAS
+R(N) -> REPETE LINHAS
+D(N) -> DELETA LINHAS
+C, A -> COPIA E COLA LINHAS
+M, A -> RECORTA E COLA LINHAS
+CC, CC, A COPIA E COLA RANGE DE LINHAS
+
+--------------------------------------------------------------------------------
+EMULADOR DE MAINFRAME
+MFE: MAIN FRAME EXPRESS
+
+HERCULES MVS: WWW.HERCULES-390.ORG
+BLOG: JAY MOSLEY
+
+--------------------------------------------------------------------------------
+25/11
+1. ABRIR
+2. LER
+3. GRAVAR
+4. FECHAR
+--------------------------------------------------------------------------------
+PIC 9  (0-9) TAMANHO MÁXIMO: 18
+PIC S9 (0-9) SINALIZADO
+PIC A  (A-Z)
+PIC X  (A-9)
+NÃO É POSSÍVEL USAR: ^Ç~'"
+--------------------------------------------------------------------------------
+1352347
+FFFFFFF -> ÚLTIMO CARACTERE: F = SEM SINAL; C = POSITIVO; D = NEGATIVO
+1352347
+--------------------------------------------------------------------------------
+COMPACTADO -> COMP-3: MAIS RÁPIDO
+1537
+324F
+--------------------------------------------------------------------------------
+X(6)      X(3)
+FUTURE -> FUT
+9(5)      9(3)
+12345  -> 45
+
+================================================================================
+COMPILAR PROGRAMA DIGITADO:
+F3
+EDITAR: E JCOMPCOB
+LINHAS: 26 E 36 -> NOME DO PROGRAMA
+COMMAND: SUB
+MAXCC > 04 = ERRO
+F3
+E (PGM)
+SWAP LIST
+SE SESSÕES = 1
+    START
+    SD
+    ST
+S NO ÚLTIMO JCOMPCOB
+M F8
+F9
+--------------------------------------------------------------------------------
+COPIAR ARQUIVO (JOB)
+SAIR COM F3 PARA A TELA "DATA SET LIST"
+DSNAME LEVEL:.. FUTURE.FONTES.JCL5
+VISUALIZAR: "V" FUTURE.FONTES.JCL5
+LOCALIZAR: "L" JEXER
+COPIAR: "C" JEXER001
+
+COPY ENTRY PANEL
+DATA SET NAME: 'ALUNOU8.FONTES.COBOL'
+
+VOLTAR COM F3 PARA A TELA "DATA SET LIST"
+DSNAME LEVEL:.. ALUNOU8
+PASTA COBOL
+E JEXER001
+--------------------------------------------------------------------------------
+FILE STATUS
+SUCESSO:        FS = '00'
+ERRO:           FS <> '00' AND '10'
+FIM DO ARQUIVO: FS = '10'
+
+GOTO E PERFORM
+
+DEFINE ARQUIVO FÍSICO:  SELECT NOME_ARQUIVO
+FILE DESCRIPTION:       FD NOME_ARQUIVO
+DEFINE ARQUIVO ENTRADA: OPEN INPUT NOME_ARQUIVO
+
+WRITE COMPOSTO: WRITE RG-SAIDA FROM REG-ENTRADA
+WRITE SIMPLES: MOVE CAMPO_1 TO OUTRO_CAMPO_1
+               MOVE CAMPO_2 TO OUTRO_CAMPO_2
+               MOVE CAMPO_3 TO OUTRO_CAMPO_3
+               ...
+               WRITE RG-SAIDA
+               
+COPIA DA POSIÇÃO 30 À 40 PARA UM NOVO CAMPO: 
+MOVE CAMPO_ENTRADA(30:11) TO CAMPO_SAIDA
+
+CONCATENA DOIS CAMPOS
+MOVE CAMPO_ENTRADA_1 TO CAMPO_SAIDA(1:30)
+MOVE CAMPO_ENTRADA_2 TO CAMPO_SAIDA(31:20)
+
+================================================================================
+01/12
+HI ON -> HIGHLIGTH
+
+================================================================================
+15/12
+EXCLUIR STATUS DOS JOBS -> P DEBAIXO DE 'P' DA COLUNA SDSF
+
+================================================================================
+04/02
+JCOMPCOB -> SUB:
+00 = OK
+04 = WARNING
+08 = ERRO
+12 = SEVERAL
+> 12 TERMINATING
+
+JCL:
+
+JOBNAME JU8EXE01 COL 3 A 11
+ACCOUNT IBMUSERA 
+REGION  USA SOMENTE PARA ARQUIVOS GRANDES
+CLASS   A OU E (ALGUMAS VEZES O A É MAIS RÁPIDO E OUTRAS VEZES O E É MAIS 
+                RÁPIDO)
+MSGCLASS ???
+TIME    01 SEGUNDOS. QUANTO TEMPO FICARÁ EXECUTANDO
+TYPRUN  NÃO USA
+
+JOBLIB  DEFINE AS BIBLIOTECAS 
+
+STEP    PASSO DE EXECUÇÃO (STEP1, STEPA, STEPB, ETC)
+    ERRO S302 ESTOURO DE TEMPO
+    ERRO S806 NÃO ENCONTROU O PROGRAMA
+
+SELECT CADPECA         ASSIGN TO UT-S-CADPECA
+       (INTERNAL FILE NAME)           (EXTERNAL FILE NAME)
+
+DISP SEMPRE SHR PARA LEITURA
+
+REFER BACK = A REFERENCIA DE ARQUIVOS CRIADOS EM STEPS ANTERIORES
+STEPLIB = BIBLIOTECA VALIDO SOMENTE PARA O STEP
+
+STEP EXEC...
+COND=(4,LT,STEP2)
+EXECUTA SE O RESULTADO DO STEP2 FOR MENOR QUE 4

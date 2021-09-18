@@ -1,0 +1,26 @@
+FUTURE SCHOOL CURSOS DE COMPUTACAO                         HH:MM           PAG.: Z.ZZ9
+PROGRAMA = EXER0012                                                         DD/MM/AAAA
+
+                    RELATORIO ANALITICO DO CADASTRO DE MATERIAIS
+
+======================================================================================
+ CODIGO                                        VALOR                               %
+MATERIAL    NOME DO MATERIAL    QUANTIDADE   UNITARIO    VALOR TOTAL    CONTA    VENDA
+======================================================================================
+
+ 99.999   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9    ZZ.ZZ9,99   Z.ZZZ.ZZ9,99  XXXXXXXXXX  999
+ 99.999   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9    ZZ.ZZ9,99   Z.ZZZ.ZZ9,99  XXXXXXXXXX  999
+ 99.999   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9    ZZ.ZZ9,99   Z.ZZZ.ZZ9,99  XXXXXXXXXX  999
+
+ *   TOTAL DA CONTA XXXXXXXXXX   ZZZ.ZZ9           ZZ.ZZZ.ZZZ.ZZ9,99
+
+ 99.999   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9    ZZ.ZZ9,99   Z.ZZZ.ZZ9,99  XXXXXXXXXX  999
+ 99.999   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9    ZZ.ZZ9,99   Z.ZZZ.ZZ9,99  XXXXXXXXXX  999
+
+ *   TOTAL DA CONTA XXXXXXXXXX   ZZZ.ZZ9           ZZ.ZZZ.ZZZ.ZZ9,99
+
+ 99.999   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9    ZZ.ZZ9,99   Z.ZZZ.ZZ9,99  XXXXXXXXXX  999
+
+ *   TOTAL DA CONTA XXXXXXXXXX   ZZZ.ZZ9           ZZ.ZZZ.ZZZ.ZZ9,99
+
+ **  TOTAL GERAL               Z.ZZZ.ZZ9           ZZ.ZZZ.ZZZ.ZZ9,99                  

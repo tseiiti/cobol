@@ -1,0 +1,23 @@
+FUTURE SCHOOL CURSOS DE COMPUTACAO                      HH:MM        PAG.: Z.ZZ9
+PROGRAMA = EXER0011                                                   DD/MM/AAAA
+
+                  RELATORIO ANALITICO DE MATERIAIS
+
+================================================================================                       
+ CODIGO                                       VALOR
+MATERIAL    NOME DO MATERIAL    QUANTIDADE  UNITARIO    VALOR TOTAL    CONTA
+================================================================================
+
+ ZZ.ZZ9   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9   ZZ.ZZ9,99   Z.ZZZ.ZZ9,99   XXXXXXXXXX
+ ZZ.ZZ9   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9   ZZ.ZZ9,99   Z.ZZZ.ZZ9,99   XXXXXXXXXX
+ ZZ.ZZ9   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9   ZZ.ZZ9,99   Z.ZZZ.ZZ9,99   XXXXXXXXXX
+ ZZ.ZZ9   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9   ZZ.ZZ9,99   Z.ZZZ.ZZ9,99   XXXXXXXXXX
+
+ *  TOTAL DA CONTA XXXXXXXXXX    ZZZ.ZZ9           Z.ZZZ.ZZZ.ZZ9,99
+
+ ZZ.ZZ9   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9   ZZ.ZZ9,99   Z.ZZZ.ZZ9,99   XXXXXXXXXX
+ ZZ.ZZ9   XXXXXXXXXXXXXXXXXXXX    ZZ.ZZ9   ZZ.ZZ9,99   Z.ZZZ.ZZ9,99   XXXXXXXXXX 
+ 
+ *  TOTAL DA CONTA XXXXXXXXXX    ZZZ.ZZ9           Z.ZZZ.ZZZ.ZZ9,99
+
+**  TOTAL GERAL                Z.ZZZ.ZZ9          ZZ.ZZZ.ZZZ.ZZ9,99                  
