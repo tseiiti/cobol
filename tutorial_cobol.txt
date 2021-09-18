@@ -1,0 +1,19 @@
+www.tutorialspoint.com/pg/cobol/index.htm
+
+ 1. index
+ 2. overview
+ 3. environment setup
+ 4. program structure
+ 5. basic syntax
+ 6. data types
+ 7. basic verbs
+ 8. data layout
+ 9. condition statements
+10. loop statements
+11. string handling
+12. table processing
+13. file handling
+14. file organization
+15. file access mode
+16. file handling verbs
+

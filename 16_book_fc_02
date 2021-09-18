@@ -1,0 +1,3 @@
+      *definiu o arquivo "input.txt" e deu o nome de "student"
+           select student assign to 'input.txt'
+             organization is line sequential.

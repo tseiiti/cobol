@@ -1,0 +1,13 @@
+       environment division.
+       input-output section.
+       file-control.
+      *definiu o arquivo "input.txt" e deu o nome de "student"
+           select student assign to 'input.txt'
+             organization is line sequential.
+
+       data division.
+       file section.
+       fd student.
+       01 student-file.
+            05 student-id pic 9(5).
+            05 name pic a(25).

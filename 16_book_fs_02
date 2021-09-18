@@ -1,0 +1,4 @@
+       fd student.
+       01 student-file.
+            05 student-id pic 9(5).
+            05 name pic a(25).
